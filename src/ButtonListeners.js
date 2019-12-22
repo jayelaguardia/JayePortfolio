@@ -76,7 +76,7 @@ const generateSeeMyWork = function () {
     <section class = 'scrollmenu'>
       <div class = 'project'> 
         <h1 class = "title"> Quiz App Project </h1>
-        <img src="src/QuizAppScreen.png" alt="Screenshot of the quiz app project">
+        <img src="QuizAppScreen.png" alt="Screenshot of the quiz app project">
         <div class = "text">
           <p class="text-item para"> <span class ="bold">Description: </span>A user is able to take a short quiz about the Kardashian celebrities and receive feedback.  </p>
           <p class="text-item para"> <span class ="bold">Technology:</span> HTML, CSS, Javascript</p>
