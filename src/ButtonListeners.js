@@ -55,8 +55,12 @@ const generateContactMe = function () {
     </header>
 
     <section>
-      <a href="https://github.com/jayelaguardia" class = "contact">My GitHub</a>
-      <p class = "contact"> jayelaguardia@gmail.com </p>
+      <button onclick="window.open('https://github.com/jayelaguardia', '_blank')" type="button" class='icon' title='My GitHub!'>
+        <i class='fab fa-github github'></i>
+      </button>
+      <button onclick="window.open("mailto: jayelaguardia@gmail.com", '_blank')" type="button" class='icon' title='Email me at jayelaguardia@gmail.com!'>
+        <i class="material-icons email">email</i>
+      </button>
     </section>
 
     <section class = "buttons">
@@ -70,7 +74,9 @@ const generateContactMe = function () {
 const generateSeeMyWork = function () {
   return `
     <section>
-      <a href='https://github.com/jayelaguardia'>GitHub</a>
+      <button onclick="window.open('https://github.com/jayelaguardia', '_blank')" type="button" class='iconWork' title='My GitHub!'>
+        <i class='fab fa-github githubWork'></i>
+      </button>
     </section>
 
     <section class = 'scrollmenu'>
@@ -80,8 +86,8 @@ const generateSeeMyWork = function () {
         <div class = "text">
           <p class="text-item para"> <span class ="bold">Description: </span>A user is able to take a short quiz about the Kardashian celebrities and receive feedback.  </p>
           <p class="text-item para"> <span class ="bold">Technology:</span> HTML, CSS, Javascript</p>
-          <a href='https://thinkful-ei-jaguar.github.io/quizAppJayeBrittany/' class="text-item">Quiz App Live</a>
-          <a href='https://github.com/thinkful-ei-jaguar/quizAppJayeBrittany' class="text-item">Quiz App Repository</a>
+          <a href='https://thinkful-ei-jaguar.github.io/quizAppJayeBrittany/' target="_blank" class="text-item">Quiz App Live</a>
+          <a href='https://github.com/thinkful-ei-jaguar/quizAppJayeBrittany' target="_blank" class="text-item">Quiz App Repository</a>
         </div>
       </div>
     </section>
